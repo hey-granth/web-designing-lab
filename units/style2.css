@@ -1,0 +1,29 @@
+main{
+    border: 10px solid salmon;
+    width: 50vw;
+    background-color: beige;
+}
+article{
+    border: 5px solid pink;
+    width: 50vw;
+    background-color: lavender;
+}
+header{
+    font-size: 2rem;
+}
+main{
+    font-size: 2rem;
+}
+article{
+    font-size: 2rem;
+}
+h1{
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.75rem;
+    
+}
