@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Pet Survey</h1>
+        <form action="#" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="pet-type">What type of pet do you have?</label>
+            <select id="pet-type" name="pet-type" required>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="bird">Bird</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="pet-name">Pet's Name:</label>
+            <input type="text" id="pet-name" name="pet-name" required>
+
+            <label for="pet-age">Pet's Age (in years):</label>
+            <input type="number" id="pet-age" name="pet-age" min="0" required>
+
+            <label>Does your pet have any special needs?</label>
+            <input type="radio" id="yes" name="special-needs" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="special-needs" value="no">
+            <label for="no">No</label>
+
+            <label for="pet-behavior">How would you rate your pet's behavior?</label>
+            <input type="range" id="pet-behavior" name="pet-behavior" min="1" max="5" value="3">
+
+            <label for="feedback">Additional Comments:</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Write any comments here"></textarea>
+
+            <button type="submit">Submit Survey</button>
+        </form>
+    </div>
+</body>
+</html>

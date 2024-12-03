@@ -4,22 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      .hover-content{
+         display:none;
+      }
+      .hover-container:hover .hover-content{
+         display: block;
+      }
+    </style>
 </head>
 <body bgcolor="yellow">
-   <h1>
     <ul>
-    <ul style="list-style-type: none;"
-        <ul type="none">
-        <li><a href="https://abes.ac.in/computer-science-engineering.php" target="COL2">CSE</a></li>
-        <br>
-        <li><a href="https://abes.ac.in/ece-department.php" target="COL2">ECE</a></li>
-        <br>
-        <li><a href="https://abes.ac.in/electrical-and-electronics-engineering.php" target="COL2">EEE</a></li>
-        <br>
-        <li><a href="https://abes.ac.in/IT-department.php" target="COL2">IT</a></li>
-        
+    <ul style="list-style-type: none;">
+     <li>
+        <h1><u><a href="https://abes.ac.in/computer-science-engineering.php" target="COL2">CSE</a></u></h1>
+       </li>
+     
+     <li>
+        <h1><u><a href="https://abes.ac.in/ece-department.php" target="COL2">ECE</a></u></h1>
+     </li>
+     
+      <li>
+        <h1><u><a href="https://abes.ac.in/electrical-and-electronics-engineering.php" target="COL2">EEE</a></u></h1>
+     </li>
+     
+     <li>
+        <h1><u><a href="https://abes.ac.in/IT-department.php" target="COL2">IT</a></u></h1>
+     </li>
+     
+     <li>
+      <div class="hover-container" style="color:brown;">
+        <h3>PRACTICALS</h3>
+         <div class="hover-content" style="color:rgb(255, 34, 0);">
+            <ul>
+               <a href="practical6.html" target="COL2">Practical6</a>
+               <br>
+               <a href="#">Practical-7</a>
+               <br>
+               <a href="#">Practical-8</a>
+               <br>
+               <a href="#">Practical-9</a>
+            </ul>
+         </div>
+      </div>
+     </li>
     </ul>
-    </h1>
-</body>
+   <!-- <ul>
+    <ul ></ul>
+    <li><a href="">CSE</a></li>
+    <li><a href="">ECE</a></li>
+    <li><a href="">IT</a></li>
+    <li><a href="">EEE</a></li>
+   </ul> -->
 </body>
 </html>
